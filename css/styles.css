@@ -1,4 +1,4 @@
-
+/*HEADER/PIC/NAME*/
 .container {
   position: relative;
   text-align: center;
@@ -13,7 +13,7 @@
   font-family: helvetica;
   font-size: 60px;
 }
-
+ 
 
 h1 {
   font-size: 25px;
@@ -23,17 +23,12 @@ h1 {
 }
 
 .sidebar {
-  box-sizing: border-box;
-  border: 2px pink;
   font-size: 18px;
   font-family: helvetica;
-  padding: 4px;
+  padding: 5px;
   width: 30%;
   float:left;
-
 }
-
-
 
 .column {
   width:60%;
@@ -44,4 +39,9 @@ h1 {
   font-family:Helvetica;
   font-size: 18px;
   color: white
+}
+
+
+body {
+  background-image:url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/-HJ_Fu5RvOpFSUGDXhHwdy3tVzcw0xujFfjMloE91po.jpg);
 }
