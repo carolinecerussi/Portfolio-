@@ -19,11 +19,14 @@ h1 {
   font-size: 25px;
   font-family: helvetica;
   color: brown;
+  text-align: center;
 }
 
-
 .sidebar {
+  box-sizing: border-box;
   border: 2px pink;
+  font-size: 18px;
+  font-family: helvetica;
   padding: 4px;
   width: 30%;
   float:left;
@@ -31,8 +34,14 @@ h1 {
 }
 
 
+
 .column {
   width:60%;
   float:left 
 }
 
+.column p {
+  font-family:Helvetica;
+  font-size: 18px;
+  color: white
+}
