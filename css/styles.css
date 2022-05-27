@@ -16,31 +16,55 @@
  
 
 h1 {
-  font-size: 25px;
+  font-size: 35px;
   font-family: helvetica;
   color: brown;
   text-align: center;
 }
 
 .sidebar {
-  font-size: 18px;
+  font-size: 25px;
   font-family: helvetica;
-  padding: 5px;
-  width: 30%;
+  padding:5px;
   float:left;
+  margin-right: 2px;
+  line-height: 26pt;
 }
 
+.projects {
+  padding: 2px;
+  color:darkgoldenrod;
+  font-style: bold;
+
+}
+
+.skills {
+  color: darkorange;
+  font-style:bold;
+
+}
+
+a {
+  color:darkgoldenrod;
+  font-style:bold;
+  font-family: helvetica;
+  
+}
 .column {
-  width:60%;
-  float:right;
+  text-align: center;
+  float:left;
+  width: 70%;
+  line-height: 25pt;
 }
-
 .column p {
   font-family:Helvetica;
   font-size: 18px;
   color: white;
   padding: 10px;
 }
+
+
+
 
 body {
   background-image:url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/-HJ_Fu5RvOpFSUGDXhHwdy3tVzcw0xujFfjMloE91po.jpg);
