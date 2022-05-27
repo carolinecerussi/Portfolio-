@@ -30,31 +30,37 @@ p {
 }
 
 .list h1 {
-  float: left;
   width: 40%;
+  color: blue;
+  font-size: 30px;
+  float: right;
 }
 
-.list ul {
-    color: yellow;
-    font-family:Helvetica;
-    font-size: 20px;
-    border-right: 10px;
-    border-color: white;
-    float: left;
-    width: 40%
+.list {
+  font-family: Arial;
+}
+
+.list ol {
+    color:blue;
+    font-size: 30px;
+    width: 40%;
+    float: right;
   }
 
-  .list h2 {
-    float: right;
-    width: 40%;
-  }
-  .list ol {
+  .list ul {
     color: pink;
-    font-family: helvetica;
     font-size: 20px;
-    border-left: 10px;
-    border-color: aliceblue;
+    float: left;
+
+
   }
+  .list h2 {
+    width: 40%;
+    color: pink;
+    size: 30px;
+    
+  }
+ 
 
 body {
   background-color: white;
