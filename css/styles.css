@@ -16,10 +16,11 @@
  
 
 h1 {
-  font-size: 35px;
+  font-size: 35pt;
   font-family: helvetica;
   color: brown;
   text-align: center;
+  line-height: 35pt;
 }
 
 .sidebar {
@@ -27,44 +28,51 @@ h1 {
   font-family: helvetica;
   padding:5px;
   float:left;
-  margin-right: 2px;
-  line-height: 26pt;
+  width: 25%;
+  margin-right:2px;
+  line-height: 20px;
 }
+
 
 .projects {
   padding: 2px;
   color:darkgoldenrod;
-  font-style: bold;
 
 }
 
+.projects p {
+  text-align: left;
+  font-size: 14px;
+
+
+}
 .skills {
-  color: darkorange;
-  font-style:bold;
+  color: skyblue;
+  font-size: 18px;
+  text-align: left;
+  line-height: 20px;
+
 
 }
 
 a {
   color:darkgoldenrod;
-  font-style:bold;
   font-family: helvetica;
+  font-size: 20px;
   
 }
 .column {
   text-align: center;
   float:left;
   width: 70%;
-  line-height: 25pt;
+  line-height: 20px;
 }
 .column p {
   font-family:Helvetica;
   font-size: 18px;
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
-
-
-
 
 body {
   background-image:url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/-HJ_Fu5RvOpFSUGDXhHwdy3tVzcw0xujFfjMloE91po.jpg);
