@@ -1,15 +1,25 @@
-.header h1 {
-  font-size: 80px;
-  font-family: Arial;
-  color:navy;
-  width: 100%;
+
+.container {
+  position: relative;
   text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  left: 50%;
+  transform: (-50%, -50%);
+  font-family: helvetica;
+  font-size: 60px;
+  font-stretch: expanded;
 
 }
-.header IMG {
-  width: 60%;
-  text-align:center;
-}
+
+
+
 
 h1 {
   font-size: 50px;
@@ -47,14 +57,14 @@ p {
     float: right;
   }
 
-  .list ul {
+.list ul {
     color: pink;
     font-size: 20px;
     float: left;
 
 
   }
-  .list h2 {
+.list h2 {
     width: 40%;
     color: pink;
     size: 30px;
