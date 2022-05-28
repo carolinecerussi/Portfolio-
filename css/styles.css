@@ -4,12 +4,12 @@
   text-align: center;
   font-family: helvetica;
   font-size: 90px;
-  color: rgb(255, 255, 255,.8);
+  color: rgb(255, 255, 255,.9);
+  font-weight: bolder;
 }
 .centered p {
     font-size: 27pt;
 }
-
 .centered {
   position:absolute;
   top: 40%;
