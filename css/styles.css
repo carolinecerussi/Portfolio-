@@ -2,36 +2,35 @@
 .container {
   position: relative;
   text-align: center;
-  color: white;
   font-family: helvetica;
-  font-size: 100px;
+  font-size: 90px;
+  color: rgb(255, 255, 255,.8);
 }
-.container p {
-    font-family: helvetica;
-    font-size: 30pt;
+.centered p {
+    font-size: 27pt;
 }
 
 .centered {
   position:absolute;
-  top: 50%;
-  left: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 40%;
+  left: 40%;
+  left: 40%;
+  width: 100%;
+  transform: translate(-40%,-40%);
+  text-align: center;
 }
 
 h1 {
-  font-size: 40pt;
+  font-size: 35pt;
   font-family: helvetica;
-  width:100%;
-  color: rgb(255, 255, 255);
+  width:auto;
+  color: rgb(255, 255, 255,.8);
   text-align: center;
   line-height: 35pt;
 }
 
 .sidebar {
-  font-size: 18pt;
   font-family: helvetica;
-  padding: 5pt;
   float:left;
   width: 30%;
   line-height: 20pt;
@@ -41,44 +40,55 @@ h1 {
 }
 
 .sidebar ol {
-  color: orange;
+  color: rgb(255, 97, 12,0.8);
+  font-size: 20pt;
+  padding: 5pt;
+  text-align: center;
+}
+
+.skills ul {
+  text-align: center;
+  font-size: 18pt;
 }
 
 .projects p {
-  color: rgb(227, 227, 227);
-  text-align: left;
-  font-size: 18pt;
-  line-height: 24pt;
+  font-family:Helvetica;
+  font-weight: 200;
+  font-size: 17pt;
+  color: white;
+  margin-right: 15pt;
+  line-height: 20pt;
 }
 .skills {
-  padding: 2px;
-  color: rgb(241, 241, 241);
-  font-size: 18pt;
+  color:white;
+  font-size: 17pt;
   text-align: left;
-  line-height: 24pt;
+  line-height: 20t;
+  margin-right: 15pt;
 }
 
 a {
-  color:rgb(251, 96, 57);
-  font-family: helvetica;
-  font-size: 20pt;
-  font-style:bold; 
+  color:rgb(251, 96, 57,0.7);
+  font-weight: bold;
+  font-size: 18pt;
+  margin-right: 10pt;
+  line-height: 20pt;
 }
 .column {
   text-align: center;
   float:left;
   width: 65%;
   line-height: 20pt;
-  background-color: rgba(161, 123, 41, 0.5);
-  margin-left: 10pt;
+  background-color: rgba(165, 123, 33, 0.5);
+  margin-left: 5pt;
 }
 .column p {
   font-family:Helvetica;
   font-weight: 200;
-  font-size: 20pt;
+  font-size: 19pt;
   color: white;
   padding: 10px;
-  line-height: 26pt;
+  line-height: 20pt;
   text-align: center;
   }  
 body {
