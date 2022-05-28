@@ -19,8 +19,6 @@
   transform: translate(-50%,-50%);
 }
 
-
-
 h1 {
   font-size: 40pt;
   font-family: helvetica;
@@ -33,16 +31,15 @@ h1 {
 .sidebar {
   font-size: 18pt;
   font-family: helvetica;
-  padding: 2px;
+  padding: 5pt;
   float:left;
   width: 30%;
-  margin-right:5px;
   line-height: 20pt;
   background-image: url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/clouds.jpg);
+  background-size:cover;
+  margin-right: 10pt;
 }
-.projects {
-  padding: 2px;
-}
+
 
 .projects p {
   color: rgb(227, 227, 227);
@@ -52,7 +49,7 @@ h1 {
 }
 .skills {
   padding: 2px;
-  color: rgb(214, 214, 214);
+  color: rgb(241, 241, 241);
   font-size: 18pt;
   text-align: left;
   line-height: 24pt;
@@ -69,19 +66,19 @@ a {
   float:left;
   width: 65%;
   line-height: 20pt;
+  background-color: lightblue;
+  margin-left: 10pt;
 }
 .column p {
   font-family:Helvetica;
   font-weight: 200;
   font-size: 20pt;
   color: white;
-  padding: 20px;
-  line-height: 20pt;
-  text-align: left;
-}
-
+  padding: 10px;
+  line-height: 26pt;
+  text-align: center;
+  }  
 body {
   background-image:url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/-HJ_Fu5RvOpFSUGDXhHwdy3tVzcw0xujFfjMloE91po.jpg);
   background-size: cover;
-  
 }
