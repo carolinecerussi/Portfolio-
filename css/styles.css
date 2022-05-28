@@ -40,6 +40,9 @@ h1 {
   margin-right: 10pt;
 }
 
+.sidebar ol {
+  color: orange;
+}
 
 .projects p {
   color: rgb(227, 227, 227);
@@ -66,7 +69,7 @@ a {
   float:left;
   width: 65%;
   line-height: 20pt;
-  background-color: lightblue;
+  background-color: rgba(161, 123, 41, 0.5);
   margin-left: 10pt;
 }
 .column p {
