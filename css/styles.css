@@ -36,27 +36,27 @@ h1 {
 
 .projects {
   padding: 2px;
-  color:darkgoldenrod;
+  color:rgb(120, 181, 185);
 
 }
 
 .projects p {
   text-align: left;
-  font-size: 14px;
+  font-size: 20px;
 
 
 }
 .skills {
   color: skyblue;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
-  line-height: 20px;
+  line-height: 20pt;
 
 
 }
 
 a {
-  color:darkgoldenrod;
+  color:rgb(74, 135, 178);
   font-family: helvetica;
   font-size: 20px;
   
@@ -72,8 +72,10 @@ a {
   font-size: 18px;
   color: white;
   padding: 20px;
+  line-height: 20pt;
 }
 
 body {
   background-image:url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/-HJ_Fu5RvOpFSUGDXhHwdy3tVzcw0xujFfjMloE91po.jpg);
+  background-size: cover;
 }
