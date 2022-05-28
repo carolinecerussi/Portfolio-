@@ -3,72 +3,72 @@
   position: relative;
   text-align: center;
   color: white;
+  font-family: helvetica;
+  font-size: 100px;
 }
+.container p {
+    font-family: helvetica;
+    font-size: 30pt;
+}
+
 .centered {
   position:absolute;
   top: 50%;
   left: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-family: helvetica;
-  font-size: 70pt;
 }
-.centered p {
-  line-height: 30px;
-  font-size: 30px;
-} 
+
+
 
 h1 {
-  font-size: 35pt;
+  font-size: 40pt;
   font-family: helvetica;
-  color: brown;
+  width:100%;
+  color: rgb(255, 255, 255);
   text-align: center;
   line-height: 35pt;
 }
 
 .sidebar {
-  font-size: 25px;
+  font-size: 18pt;
   font-family: helvetica;
-  padding:5px;
+  padding: 2px;
   float:left;
   width: 30%;
-  margin-right:2px;
-  line-height: 20px;
+  margin-right:5px;
+  line-height: 20pt;
+  background-image: url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/clouds.jpg);
 }
-
-
 .projects {
   padding: 2px;
-  color:rgb(120, 181, 185);
-
 }
 
 .projects p {
+  color: rgb(227, 227, 227);
   text-align: left;
-  font-size: 20px;
-
-
+  font-size: 18pt;
+  line-height: 24pt;
 }
 .skills {
-  color: skyblue;
-  font-size: 20px;
+  padding: 2px;
+  color: rgb(214, 214, 214);
+  font-size: 18pt;
   text-align: left;
-  line-height: 20pt;
-
-
+  line-height: 24pt;
 }
 
 a {
-  color:rgb(74, 135, 178);
+  color:rgb(251, 96, 57);
   font-family: helvetica;
-  font-size: 20px;
-  
+  font-size: 20pt;
+  font-style:bold; 
 }
 .column {
   text-align: center;
   float:left;
   width: 65%;
-  line-height: 20px;
+  line-height: 20pt;
 }
 .column p {
   font-family:Helvetica;
@@ -77,9 +77,11 @@ a {
   color: white;
   padding: 20px;
   line-height: 20pt;
+  text-align: left;
 }
 
 body {
   background-image:url(file:///Users/carolinecerussi/Desktop/Portfolio/IMG/-HJ_Fu5RvOpFSUGDXhHwdy3tVzcw0xujFfjMloE91po.jpg);
   background-size: cover;
+  
 }
