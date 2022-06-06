@@ -7,6 +7,7 @@
 ## Technologies Used
 
 * HTML
+* Boostrap css
 * CSS
 
 ## Description
